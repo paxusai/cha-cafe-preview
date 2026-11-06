@@ -1,0 +1,311 @@
+@import "tailwindcss";
+
+/* ── Cha design tokens (§2) ─────────────────────────────────────────────
+   Ratio ≈ 65% white · 20% ink · 10% leaf · 5% crema + hibiscus            */
+:root {
+  --leaf: #6fa23a; /* primary, logo green */
+  --leaf-text: #4e7d24; /* AA text-size green on white */
+  --sprout: #a9cb7f; /* secondary leaf */
+  --white: #faf8f3; /* bakery white base */
+  --ink: #161616; /* campaign panels, text */
+  --crema: #b07a4a; /* wood, coffee, crust */
+  --hibiscus: #d2373c; /* small accents only */
+  --steel: #c9ccce; /* lines, UI chrome */
+  --predawn: #0b1020; /* 001 hero start */
+  --sunrise: #f2d7b4;
+  --nav-h: 72px;
+}
+
+@theme inline {
+  --color-leaf: var(--leaf);
+  --color-leaf-text: var(--leaf-text);
+  --color-sprout: var(--sprout);
+  --color-paper: var(--white);
+  --color-ink: var(--ink);
+  --color-crema: var(--crema);
+  --color-hibiscus: var(--hibiscus);
+  --color-steel: var(--steel);
+  --color-predawn: var(--predawn);
+
+  --font-display: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  --breakpoint-xs: 22.5rem; /* 360 */
+  --breakpoint-3xl: 120rem; /* 1920 */
+
+  --ease-enter: cubic-bezier(0.215, 0.61, 0.355, 1); /* power3.out */
+  --ease-wipe: cubic-bezier(0.87, 0, 0.13, 1); /* expo.inOut */
+}
+
+/* ── Base ─────────────────────────────────────────────────────────────── */
+html {
+  background: var(--white);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: var(--nav-h);
+}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--white);
+  overflow-x: clip; /* §8 no horizontal page scroll */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--sprout);
+  color: var(--ink);
+}
+
+/* Focus rings (§10 WCAG 2.2 AA) */
+:focus-visible {
+  outline: 3px solid var(--leaf-text);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--sprout);
+}
+
+/* ── Type system ──────────────────────────────────────────────────────── */
+.display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  line-height: 0.92;
+}
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* SplitText masks. Words never break between their characters. */
+.split-line {
+  overflow: clip;
+  padding-bottom: 0.06em;
+  margin-bottom: -0.06em;
+}
+.split-word {
+  white-space: nowrap;
+}
+
+/* ── Components ───────────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px; /* §8 tap targets */
+  padding: 0.7rem 1.25rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  transition:
+    transform 0.35s var(--ease-enter),
+    box-shadow 0.35s var(--ease-enter),
+    background-color 0.25s,
+    color 0.25s;
+  white-space: nowrap;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn-leaf {
+  background: var(--leaf);
+  color: var(--ink);
+}
+.btn-leaf:hover {
+  box-shadow: 0 10px 24px -10px color-mix(in srgb, var(--leaf) 80%, transparent);
+}
+.btn-ink {
+  background: var(--ink);
+  color: var(--white);
+}
+.btn-ghost {
+  border: 1.5px solid currentColor;
+}
+.btn-ghost:hover {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+/* 6px card lift with a leaf-green shadow (§7) */
+.lift {
+  transition:
+    transform 0.45s var(--ease-enter),
+    box-shadow 0.45s var(--ease-enter);
+}
+.lift:hover,
+.lift:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px -22px color-mix(in srgb, var(--leaf) 75%, transparent);
+}
+
+.hairline {
+  border-color: color-mix(in srgb, var(--ink) 12%, transparent);
+}
+.on-dark .hairline {
+  border-color: color-mix(in srgb, var(--white) 16%, transparent);
+}
+
+.frost {
+  background: color-mix(in srgb, var(--white) 78%, transparent);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Paper grain for campaign panels */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.07;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Placeholder photo slot (client originals pending) */
+.photo-slot {
+  background:
+    radial-gradient(120% 90% at 20% 10%, color-mix(in srgb, var(--sprout) 32%, transparent), transparent 60%),
+    radial-gradient(120% 120% at 90% 100%, color-mix(in srgb, var(--crema) 30%, transparent), transparent 55%),
+    linear-gradient(160deg, #f1ede4, #e6e1d6);
+}
+.photo-slot.dark {
+  background:
+    radial-gradient(90% 70% at 50% 0%, color-mix(in srgb, var(--crema) 30%, transparent), transparent 60%),
+    linear-gradient(180deg, #232323, #121212);
+}
+
+/* Leaf cursor (desktop only) */
+@media (hover: hover) and (pointer: fine) {
+  html.has-leaf-cursor,
+  html.has-leaf-cursor a,
+  html.has-leaf-cursor button {
+    cursor: none;
+  }
+}
+
+/* Preloader: first visit only */
+html.visited #preloader {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  #preloader {
+    display: none;
+  }
+}
+
+/* Motion pause control + reduced motion */
+html.motion-paused *,
+html.reduced * {
+  animation-play-state: paused !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.2s !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+.sway {
+  transform-origin: 50% 100%;
+  animation: sway 6s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  animation: marquee 38s linear infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+.pulse-ring {
+  animation: pulse-ring 2.2s var(--ease-enter) infinite;
+}
+
+/* MapLibre: light custom chrome */
+.maplibregl-ctrl-attrib {
+  font-size: 10px !important;
+  background: color-mix(in srgb, var(--white) 85%, transparent) !important;
+}
+
+/* ── Print: the printable menu (§4.6) ─────────────────────────────────── */
+@media print {
+  @page {
+    margin: 14mm;
+  }
+  html,
+  body {
+    background: #fff !important;
+  }
+  .no-print,
+  header,
+  footer,
+  nav,
+  [data-chrome] {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-break {
+    break-inside: avoid;
+  }
+}
+.print-only {
+  display: none;
+}
