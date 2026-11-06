@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "note": "Confirmed item names from the research brief. Prices are \"TBC\" (null) until Cha supplies the current menu — the full price list only lives in Instagram story highlights. Descriptions and hot/iced/dietary tags were written from item names only and are flagged descriptionDraft / tagsDraft [CONFIRM].",
+    "pricesConfirmed": false,
+    "currency": "USD",
+    "updated": "2026-11-05"
+  },
+  "modifiers": {
+    "size": {
+      "label": "Size",
+      "confirm": "Cup sizes and upcharges",
+      "options": [
+        { "id": "regular", "label": "Regular", "delta": 0 },
+        { "id": "large", "label": "Large", "delta": null }
+      ]
+    },
+    "milk": {
+      "label": "Milk",
+      "options": [
+        { "id": "regular", "label": "Regular milk", "delta": 0 },
+        { "id": "skinny", "label": "Skinny", "delta": null },
+        { "id": "oat", "label": "Oat", "delta": null },
+        { "id": "almond", "label": "Almond", "delta": null },
+        { "id": "soy", "label": "Soy", "delta": null }
+      ]
+    },
+    "pearls": {
+      "label": "Pearls",
+      "options": [
+        { "id": "none", "label": "No pearls", "delta": 0 },
+        { "id": "fresh", "label": "Fresh pearls", "delta": null },
+        { "id": "popping", "label": "Popping pearls", "delta": null }
+      ]
+    },
+    "cakeSize": {
+      "label": "Size",
+      "options": [
+        { "id": "slice", "label": "Slice", "delta": null },
+        { "id": "mini", "label": "Mini", "delta": null },
+        { "id": "regular", "label": "Regular", "delta": null }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "blurb": "Roasted in-house by HARC, brewed to SCA specialty standards.",
+      "items": [
+        { "id": "sea-salt-americano", "name": "Sea Salt Americano", "signature": true, "description": "The house signature: bold espresso and water under a silky sea-salt cream float.", "descriptionDraft": true, "price": null, "temps": ["iced", "hot"], "dietary": [], "tagsDraft": true, "customize": ["size"], "illustration": "iced", "photo": null },
+        { "id": "americano", "name": "Americano", "description": "A clean, long pour of our in-house espresso.", "descriptionDraft": true, "price": null, "temps": ["hot", "iced"], "dietary": ["Dairy-free"], "tagsDraft": true, "customize": ["size"], "illustration": "espresso", "photo": null },
+        { "id": "latte", "name": "Latte", "description": "Espresso and steamed milk, poured smooth.", "descriptionDraft": true, "price": null, "temps": ["hot"], "dietary": ["Plant milk option"], "tagsDraft": true, "customize": ["size", "milk"], "illustration": "espresso", "photo": "menu-latte" },
+        { "id": "cappuccino", "name": "Cappuccino", "description": "Equal parts espresso, milk and velvet foam.", "descriptionDraft": true, "price": null, "temps": ["hot"], "dietary": ["Plant milk option"], "tagsDraft": true, "customize": ["milk"], "illustration": "espresso", "photo": null },
+        { "id": "iced-latte", "name": "Iced Latte", "description": "Espresso over cold milk and ice — Saipan's favourite way to start the day.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": ["Plant milk option"], "tagsDraft": true, "customize": ["size", "milk"], "illustration": "iced", "photo": "iced-latte-danish" },
+        { "id": "salted-caramel-latte", "name": "Salted Caramel Latte", "description": "Buttery caramel, a pinch of salt and espresso in one sweet, salty sip.", "descriptionDraft": true, "price": null, "temps": ["hot", "iced"], "dietary": ["Plant milk option"], "tagsDraft": true, "customize": ["size", "milk"], "illustration": "iced", "photo": null },
+        { "id": "alt-milk-latte", "name": "Skinny / Oat / Almond / Soy Latte", "description": "Our latte made skinny or with oat, almond or soy milk, with no added fat or sugar.", "descriptionDraft": false, "price": null, "temps": ["hot", "iced"], "dietary": ["Dairy-free option", "No added sugar"], "tagsDraft": true, "customize": ["size", "milk"], "illustration": "espresso", "photo": null }
+      ]
+    },
+    {
+      "id": "tea",
+      "label": "Milk Tea & Teas",
+      "blurb": "Cha's first product in 2012 — brewed fresh daily.",
+      "items": [
+        { "id": "milk-tea", "name": "Milk Tea", "signature": true, "original": true, "description": "The original 2012 Cha drink: fresh-brewed milk tea with fresh or popping pearls.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": [], "tagsDraft": true, "customize": ["size", "pearls"], "illustration": "milktea", "photo": "branded-milk-tea" },
+        { "id": "honey-milk-tea", "name": "Honey Milk Tea", "description": "Fresh milk tea rounded with honey. Ask for the Oreo add-on.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": [], "tagsDraft": true, "customize": ["size", "pearls"], "illustration": "milktea", "photo": null },
+        { "id": "honeydew-milk-tea", "name": "Honeydew Black Milk Tea", "description": "Black milk tea with cool, sweet honeydew melon.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": [], "tagsDraft": true, "customize": ["size", "pearls"], "illustration": "milktea", "photo": null },
+        { "id": "taro-milk-tea", "name": "Taro Milk Tea", "description": "Creamy, nutty taro milk tea in its signature lilac.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": [], "tagsDraft": true, "customize": ["size", "pearls"], "illustration": "milktea", "photo": null },
+        { "id": "passion-fruit-sea-salt-tea", "name": "Passion Fruit Sea Salt Tea", "description": "Bright passion-fruit tea under a light sea-salt cream.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": [], "tagsDraft": true, "customize": ["size"], "illustration": "lemonade", "photo": null },
+        { "id": "black-tea-pearls", "name": "Black Tea with Pearls", "description": "Brisk black tea with chewy tapioca pearls.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": ["Dairy-free"], "tagsDraft": true, "customize": ["size", "pearls"], "illustration": "milktea", "photo": null },
+        { "id": "iced-green-tea", "name": "Iced Green Tea", "description": "Clean, chilled green tea for island heat.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": ["Dairy-free"], "tagsDraft": true, "customize": ["size"], "illustration": "lemonade", "photo": null }
+      ]
+    },
+    {
+      "id": "blended",
+      "label": "Blended & Lemonade",
+      "blurb": "Frappés, snows and the Lemonade Charger.",
+      "items": [
+        { "id": "coffee-frappe", "name": "Coffee Frappé", "description": "HARC espresso blended icy and smooth.", "descriptionDraft": true, "price": null, "temps": ["blended"], "dietary": [], "tagsDraft": true, "customize": ["size", "milk"], "illustration": "blended", "photo": null },
+        { "id": "matcha-frappe", "name": "Matcha Frappé", "description": "Grassy, creamy matcha blended with ice.", "descriptionDraft": true, "price": null, "temps": ["blended"], "dietary": [], "tagsDraft": true, "customize": ["size", "milk"], "illustration": "blended", "photo": null },
+        { "id": "mango-snow", "name": "Mango Snow with Pearls", "description": "Mango purée blended to snow with popping and tapioca pearls.", "descriptionDraft": true, "price": null, "temps": ["blended"], "dietary": [], "tagsDraft": true, "customize": ["size", "pearls"], "illustration": "blended", "photo": null },
+        { "id": "mango-smoothie", "name": "Mango Smoothie", "description": "Ripe mango, blended thick.", "descriptionDraft": true, "price": null, "temps": ["blended"], "dietary": [], "tagsDraft": true, "customize": ["size"], "illustration": "blended", "photo": null },
+        { "id": "lemonade-charger", "name": "Lemonade Charger", "description": "Caffeinated lemonade: energy without coffee. 24 oz at the drive-thru.", "descriptionDraft": false, "price": null, "temps": ["iced"], "dietary": ["Coffee-free"], "tagsDraft": true, "customize": ["size"], "driveThruSize": "24 oz", "illustration": "lemonade", "photo": null }
+      ]
+    },
+    {
+      "id": "bakery",
+      "label": "Bakery",
+      "blurb": "Baked every morning, from scratch, before sunrise.",
+      "items": [
+        { "id": "croissant", "name": "Croissant", "description": "Butter-laminated, shatter-crisp outside, honeycomb inside.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "croissant", "photo": "bakery-croissant" },
+        { "id": "coconut-croissant", "name": "Coconut Croissant", "description": "Our croissant with a toasted coconut finish.", "descriptionDraft": true, "price": null, "temps": [], "dietary": ["Coconut"], "tagsDraft": true, "illustration": "croissant", "photo": "bakery-coconut-croissant" },
+        { "id": "danish", "name": "Danish", "description": "Flaky laminated pastry with a glossy filling.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "pastry", "photo": "bakery-danish" },
+        { "id": "taro-bread", "name": "Taro Bread", "signature": true, "description": "Soft, sweet taro bread — a customer favourite since day one.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "bread", "photo": "bakery-taro-bread" },
+        { "id": "cinnamon-roll", "name": "Cinnamon Roll", "description": "A tight swirl of cinnamon sugar, baked golden.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "pastry", "photo": "bakery-cinnamon-roll" },
+        { "id": "blueberry-tart", "name": "Blueberry Tart", "description": "Crisp tart shell piled with blueberries.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "pastry", "photo": "bakery-blueberry-tart" },
+        { "id": "banana-walnut-bread", "name": "Banana Walnut Bread", "description": "Moist banana loaf with toasted walnuts.", "descriptionDraft": true, "price": null, "temps": [], "dietary": ["Contains nuts"], "tagsDraft": true, "illustration": "bread", "photo": "bakery-banana-walnut" },
+        { "id": "choc-chip-cookie", "name": "Chocolate Chip Cookie", "description": "Crisp edges, soft middle, plenty of chocolate.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cookie", "photo": "bakery-cookie" },
+        { "id": "bagels", "name": "Bagels", "description": "Chewy, golden bagels baked in-house.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "bagel", "photo": "bakery-bagels" },
+        { "id": "macarons", "name": "Macarons", "description": "Delicate almond shells with soft fillings.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "macaron", "photo": null }
+      ]
+    },
+    {
+      "id": "cakes",
+      "label": "Cakes",
+      "blurb": "Premium cakes by the slice, mini or regular. Pre-order whole cakes.",
+      "items": [
+        { "id": "seasonal-fruit-cake", "name": "Seasonal Fruit Cake", "signature": true, "description": "Cream cake crowned with seasonal fruit imported from Korea.", "descriptionDraft": false, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "dark-chocolate-cake", "name": "Dark Chocolate Cake", "description": "Deep, dark and glossy — for real chocolate people.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "strawberry-cream-cake", "name": "Strawberry Cream Cake", "description": "Light sponge, fresh cream and ripe strawberries.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "shine-muscat-cake", "name": "Shine Muscat Cream Cake", "description": "Fresh cream and sweet, crisp Shine Muscat grapes.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "chocolate-drip-cake", "name": "Chocolate Drip Cake", "description": "Chocolate ganache drips over a celebration cake.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "basque-cheesecake", "name": "Basque Cheesecake", "description": "Burnt-top, custardy-centre cheesecake.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "tiramisu", "name": "Tiramisu", "description": "Espresso-soaked layers under mascarpone and cocoa.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null },
+        { "id": "blueberry-cheesecake", "name": "Blueberry Cheesecake", "description": "Creamy cheesecake with a blueberry topping.", "descriptionDraft": true, "price": null, "sizes": ["slice", "mini", "regular"], "temps": [], "dietary": [], "tagsDraft": true, "illustration": "cake", "photo": null }
+      ]
+    },
+    {
+      "id": "brunch",
+      "label": "Brunch & Easy Eats",
+      "blurb": "All-day easy eats from the bakery kitchen.",
+      "items": [
+        { "id": "breakfast-sandwich", "name": "Breakfast Sandwich", "description": "A hot, stacked breakfast sandwich on house bread.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "sandwich", "photo": null },
+        { "id": "coffee-egg-muffin", "name": "Coffee Egg Muffin", "description": "Egg muffin made for eating with your coffee.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "sandwich", "photo": null },
+        { "id": "breakfast-burrito", "name": "Breakfast Burrito", "description": "A warm, generous burrito built for the morning.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "burrito", "photo": null },
+        { "id": "bagel-sandwich", "name": "Bagel Sandwich", "description": "Our house bagel, filled and toasted.", "descriptionDraft": true, "price": null, "temps": [], "dietary": [], "tagsDraft": true, "illustration": "bagel", "photo": null },
+        { "id": "tomato-bisque", "name": "Tomato Bisque", "description": "Smooth, comforting tomato bisque.", "descriptionDraft": true, "price": null, "temps": ["hot"], "dietary": [], "tagsDraft": true, "illustration": "soup", "photo": null }
+      ]
+    },
+    {
+      "id": "drive",
+      "label": "Drive-Thru",
+      "blurb": "Coffee & Fuel at Mobil Middle Road and Mobil Chalan Kiya.",
+      "confirm": "Full drive-thru menu (Instagram highlight \"Drive-Thru\")",
+      "items": [
+        { "id": "lemonade-charger-24", "name": "Lemonade Charger · 24 oz", "description": "The big one — caffeinated lemonade, drive-thru only.", "descriptionDraft": true, "price": null, "temps": ["iced"], "dietary": ["Coffee-free"], "tagsDraft": true, "customize": [], "illustration": "lemonade", "photo": null }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "label": "Seasonal Specials",
+      "blurb": "Limited-time drinks and bakes.",
+      "confirm": "Current specials (Instagram highlight \"Fall Specials\")",
+      "items": []
+    }
+  ]
+}

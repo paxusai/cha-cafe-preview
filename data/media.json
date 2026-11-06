@@ -1,0 +1,55 @@
+{
+  "_meta": {
+    "note": "Photo slots. Drop the client's original photo into /public/photos with the filename below (any of .avif .webp .jpg .png) and it replaces the labelled placeholder automatically on the next build/refresh. A full https:// URL also works. Never use stock photos of other cafés.",
+    "folder": "/photos"
+  },
+  "logo": {
+    "local": [
+      "/brand/cha-logo.svg",
+      "/brand/cha-logo.webp",
+      "/brand/cha-logo.png"
+    ],
+    "remote": "https://www.chacafeusa.com/wp-content/uploads/2026/03/cha-logo-300x300.webp",
+    "alt": "Cha — hand-drawn lowercase cha wordmark with two green leaves",
+    "confirm": "Vector logo (only a 300 px WebP is online)"
+  },
+  "slots": {
+    "hero-espresso-pour": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/5cfbc1f8cb11089b314c7ed96737fc40.webp", "alt": "Espresso pouring into a glass at Cha's espresso bar", "label": "Espresso pour", "credit": "chacafeusa.com" },
+    "story-2012": { "file": "story-2012", "alt": "The original Cha hole-in-the-wall on Beach Road, 2012", "label": "Beach Road, 2012" },
+    "story-bakery": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/cbddd85b470241f5236dfb719a8765a0.webp", "alt": "Inside the Cha café, an Edison pendant light in front of the windows", "label": "Inside the café", "credit": "chacafeusa.com" },
+    "story-bistro": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/d4ecd76da01d8db4318e95e350e043ba.webp", "alt": "Cha Cafe Bistro menu card reading Hafa Adai, beside red hibiscus flowers", "label": "Cha Bistro menu", "credit": "chacafeusa.com" },
+    "story-drive-middle": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/8c1f74ce473e30b35dd1d7f6b254f840-2048x1365.webp", "alt": "Cha drive-thru canopy with the leaf mark", "label": "Drive-thru canopy", "credit": "chacafeusa.com" },
+    "story-award": { "file": "story-award", "alt": "Best of the Marianas 2023 Gold award for Best Coffee", "label": "Best of the Marianas 2023" },
+    "story-drive-kiya": { "file": "story-drive-kiya", "alt": "The new Cha drive-thru at Mobil Chalan Kiya", "label": "Chalan Kiya opening" },
+    "harc-machine": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/5080a131a70ca458b34149f70c650acd-2048x1274.webp", "alt": "Rows of espresso cups warming on top of Cha's espresso machine", "label": "Espresso machine", "credit": "chacafeusa.com" },
+    "harc-bags": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/coffee-beans.webp", "alt": "Three white Cha coffee bags with tropical hibiscus labels", "label": "HARC coffee bags", "credit": "chacafeusa.com", "fit": "contain" },
+    "bakery-kitchen": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/5f819b8538e64dce643d9e071c3db573-1475x2048.webp", "alt": "A white Cha cake box under a pendant lamp against white subway tile", "label": "White-tile kitchen", "credit": "chacafeusa.com" },
+    "bakery-croissant": { "file": "bakery-croissant", "alt": "Fresh croissant from Cha bakery", "label": "Croissant" },
+    "bakery-coconut-croissant": { "file": "bakery-coconut-croissant", "alt": "Coconut croissant from Cha bakery", "label": "Coconut croissant" },
+    "bakery-danish": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/cha-teat-muffin-2048x1217.webp", "alt": "A Cha Danish beside an iced latte on a wooden table", "label": "Iced latte & Danish", "credit": "chacafeusa.com" },
+    "bakery-taro-bread": { "file": "bakery-taro-bread", "alt": "Taro bread from Cha bakery", "label": "Taro bread" },
+    "bakery-cinnamon-roll": { "file": "bakery-cinnamon-roll", "alt": "Cinnamon roll from Cha bakery", "label": "Cinnamon roll" },
+    "bakery-blueberry-tart": { "file": "bakery-blueberry-tart", "alt": "Blueberry tart from Cha bakery", "label": "Blueberry tart" },
+    "bakery-banana-walnut": { "file": "bakery-banana-walnut", "alt": "Banana walnut bread from Cha bakery", "label": "Banana walnut bread" },
+    "bakery-cookie": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/56b32c6f3d6c4b337b398fe0bd7719cc-1441x2048.webp", "alt": "A Cha cookie on Cha Bakery paper", "label": "Cookie on Cha Bakery paper", "credit": "chacafeusa.com" },
+    "bakery-bagels": { "file": "bakery-bagels", "alt": "Bagels baked in-house at Cha", "label": "Bagels" },
+    "iced-latte-danish": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/cha-teat-muffin-2048x1217.webp", "alt": "A Cha iced latte with a Danish on a wooden table", "label": "Iced latte & Danish", "credit": "chacafeusa.com" },
+    "branded-milk-tea": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/cha-milk-tea.webp", "alt": "Cha milk tea with pearls in a clear cup with the Cha logo", "label": "Branded milk tea", "credit": "chacafeusa.com", "fit": "contain" },
+    "cakes-whole": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/DSC03167-2048x1183.webp", "alt": "A whole cake topped with chocolate pieces in Cha's glass display case", "label": "Whole cakes", "credit": "chacafeusa.com" },
+    "drive-canopy": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/8c1f74ce473e30b35dd1d7f6b254f840-2048x1365.webp", "alt": "Cha drive-thru canopy with the leaf mark at a Mobil station", "label": "Drive-thru canopy", "credit": "chacafeusa.com" },
+    "staff": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/DSC05352-2048x1259.webp", "alt": "A Cha barista in a black shirt pouring oat milk into a steel pitcher", "label": "Barista at work", "credit": "chacafeusa.com" },
+    "posters": { "file": "posters", "alt": "Cha's 2026 black-and-white campaign posters", "label": "2026 campaign posters" },
+    "bistro-room": { "file": "bistro-room", "alt": "Cha Bistro dining room upstairs", "label": "Bistro dining room" },
+    "bistro-plate": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/53d2d40adc58526946bfce0504efe416-1638x2048.webp", "alt": "A grilled plate with red rice, a purple purée and dipping sauces at Cha Bistro", "label": "Bistro plate", "credit": "chacafeusa.com" },
+    "bistro-plates": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/58d76adc991b005cf62e545f03cb4bba.webp", "alt": "Two plated Cha Bistro dishes on the counter by the window", "label": "Bistro plates", "credit": "chacafeusa.com" },
+    "bistro-menu": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/d4ecd76da01d8db4318e95e350e043ba.webp", "alt": "Cha Cafe Bistro menu card reading Hafa Adai, beside red hibiscus flowers on a wooden table", "label": "Bistro menu", "credit": "chacafeusa.com" },
+    "bistro-brunch": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/4908ad652c830b8674568301b02968bb.webp", "alt": "A table of Cha Bistro plates with steak, eggs, potatoes and salad", "label": "Bistro brunch", "credit": "chacafeusa.com" },
+    "shop-coffee-bags": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/coffee-beans.webp", "alt": "Cha coffee beans in white bags with hibiscus labels", "label": "Coffee bags", "credit": "chacafeusa.com", "fit": "contain" },
+    "shop-tumblers": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/merchandise.webp", "alt": "Black and white Cha tumblers with the leaf mark", "label": "Tumblers", "credit": "chacafeusa.com" },
+    "menu-latte": { "file": "https://chacafeusa.com/wp-content/uploads/2026/04/18be3bf293cfe8bf77c91db8a61b4ef3.webp", "alt": "A latte with leaf latte art on a Hafa Adai tray", "label": "Latte", "credit": "chacafeusa.com" },
+    "shop-espresso-roast": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/coffee-beans-2.webp", "alt": "A Brazil Dark bag of Cha coffee with spilled beans", "label": "Espresso Roast", "credit": "chacafeusa.com", "fit": "contain" },
+    "shop-milk-tea-kit": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/cha-milk-tea.webp", "alt": "Cha milk tea with pearls in a clear Cha cup", "label": "Milk Tea Kit", "credit": "chacafeusa.com", "fit": "contain" },
+    "shop-bakery-sampler": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/cha-teat-muffin-2048x1217.webp", "alt": "A Cha pastry beside an iced latte", "label": "Bakery Sampler", "credit": "chacafeusa.com" },
+    "shop-mug": { "file": "https://chacafeusa.com/wp-content/uploads/2026/03/coffee-mug.webp", "alt": "White Cha drinkware with the leaf mark", "label": "Coffee Mug", "credit": "chacafeusa.com", "fit": "contain" }
+  }
+}

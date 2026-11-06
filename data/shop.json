@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "note": "Mock WooCommerce data layer. Prices verified from the chacafeusa.com shop on Nov 5, 2026. Shape mirrors the WooCommerce Store API so it can be swapped for live data (see docs/WOOCOMMERCE.md). Descriptions are drafts [CONFIRM].",
+    "currency": "USD",
+    "updated": "2026-11-05"
+  },
+  "products": [
+    { "id": 101, "slug": "premium-coffee-beans", "name": "Premium Coffee Beans", "category": "Coffee", "price": 8.0, "regularPrice": 10.0, "onSale": true, "description": "HARC small-batch beans, roasted on Saipan.", "descriptionDraft": true, "preview": "bag", "label": "Guatemala Medium", "photo": "shop-coffee-bags" },
+    { "id": 102, "slug": "house-blend-beans", "name": "House Blend Beans", "category": "Coffee", "price": 9.0, "regularPrice": 11.0, "onSale": true, "description": "The blend behind every Cha espresso.", "descriptionDraft": true, "preview": "bag", "label": "House Blend", "photo": "shop-coffee-bags" },
+    { "id": 103, "slug": "espresso-roast", "name": "Espresso Roast", "category": "Coffee", "price": 12.0, "regularPrice": 12.0, "onSale": false, "description": "Dark, syrupy and built for espresso.", "descriptionDraft": true, "preview": "bag", "label": "Brazil Dark", "photo": "shop-espresso-roast" },
+    { "id": 104, "slug": "milk-tea-kit", "name": "Milk Tea Kit", "category": "Tea", "price": 14.0, "regularPrice": 14.0, "onSale": false, "description": "Make Cha's original 2012 drink at home.", "descriptionDraft": true, "preview": "kit", "label": "Milk Tea", "photo": "shop-milk-tea-kit" },
+    { "id": 105, "slug": "bakery-sampler", "name": "Bakery Sampler", "category": "Bakery", "price": 16.0, "regularPrice": 16.0, "onSale": false, "description": "A box of this morning's bakes.", "descriptionDraft": true, "preview": "box", "label": "Bakery", "photo": "shop-bakery-sampler" },
+    { "id": 106, "slug": "cold-brew-tumbler", "name": "Cold Brew Tumbler", "category": "Merchandise", "price": 18.0, "regularPrice": 18.0, "onSale": false, "description": "The Cha tumbler, ready for cold brew.", "descriptionDraft": true, "preview": "tumbler", "label": "Tumbler", "photo": "shop-tumblers" },
+    { "id": 107, "slug": "coffee-mug", "name": "Coffee Mug", "category": "Mug", "price": 4.0, "regularPrice": 4.0, "onSale": false, "description": "Your morning cup, with the leaf.", "descriptionDraft": true, "preview": "mug", "label": "Mug", "photo": "shop-mug" }
+  ]
+}

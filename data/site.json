@@ -1,0 +1,126 @@
+{
+  "_meta": {
+    "note": "Verified business facts from the research brief (checked Nov 5, 2026). Edit here or in the CMS. Anything with a \"confirm\" key is a [CONFIRM] placeholder.",
+    "updated": "2026-11-05"
+  },
+  "name": "Cha Cafe & Bistro",
+  "shortName": "Cha",
+  "alsoKnownAs": ["Cha Café and Bistro", "Cha Cafe & Bakery", "Cha Saipan"],
+  "subBrands": [
+    { "id": "cafe", "name": "Cha Cafe & Bakery", "role": "Main café, Beach Road" },
+    { "id": "bistro", "name": "Cha Bistro", "role": "Second-floor dining", "confirm": "Is Cha Bistro still open? Menu and hours?" },
+    { "id": "harc", "name": "Hafa Adai Roasting Company", "abbr": "HARC", "role": "In-house roaster" },
+    { "id": "drive", "name": "Cha Drive-Thru", "role": "Two Mobil drive-thrus" }
+  ],
+  "ownerDescription": "Cha is a specialty cafe & American bakery with all day easy eats. We roast coffee in-house and bake daily. We are located on Beach Road in Garapan, Saipan, USA at the entrance of Saipan's tourist district.",
+  "founded": 2012,
+  "owner": {
+    "name": "John Lee",
+    "bio": "Born and raised in the CNMI, SCA-certified professional roaster.",
+    "quote": "We raised the bar.",
+    "quoteLong": "The standards we have are comparable to the best cafés in New York.",
+    "quoteSource": "Saipan Tribune",
+    "values": ["Hires island youth", "Employee scholarships", "New York café standards"]
+  },
+  "award": {
+    "level": "Gold",
+    "title": "Best Coffee",
+    "program": "Best of the Marianas",
+    "year": 2023,
+    "source": "Marianas Variety"
+  },
+  "coffee": {
+    "roaster": "Hafa Adai Roasting Company (HARC)",
+    "claims": ["Roasted in-house in small batches", "Brewed to SCA specialty standards", "SCA-certified professional roaster"],
+    "origins": [
+      { "name": "Guatemala", "roast": "Medium" },
+      { "name": "Brazil", "roast": "Dark" }
+    ],
+    "originsConfirm": "Current single origins and blends in the HARC lineup",
+    "distributor": ["La Marzocco", "Mazzer", "Curtis", "Schaerer", "WMF"],
+    "franchise": true
+  },
+  "contact": {
+    "phone": "+1 (670) 233-2421",
+    "phoneShort": "670-233-2421",
+    "phoneHref": "tel:+16702332421",
+    "email": "chasaipan@gmail.com",
+    "whatsapp": null,
+    "whatsappConfirm": "Does Cha want a WhatsApp order hand-off? If so, which number?"
+  },
+  "social": [
+    { "id": "facebook", "label": "Facebook", "url": "https://www.facebook.com/chasaipan/", "stat": "2.8K followers" },
+    { "id": "instagram", "label": "Instagram", "url": "https://www.instagram.com/chasaipan/", "stat": "6.1K followers" },
+    { "id": "x", "label": "X", "url": "https://x.com/chasaipan", "stat": null }
+  ],
+  "ratings": {
+    "google": { "stars": 4.3, "count": 756, "label": "Google" },
+    "googleDriveThru": { "stars": 4.7, "count": 16, "label": "Google (drive-thru)" },
+    "facebook": { "recommend": 92, "count": 324, "label": "Facebook" }
+  },
+  "taglines": {
+    "hero": "Where coffee meets paradise.",
+    "bakery": "Baked every morning.",
+    "roast": "Roasted fresh. Specialty coffee.",
+    "drive": "Coffee & Fuel.",
+    "value": "Exceptional quality at reasonable prices."
+  },
+  "promo": {
+    "title": "Coffee & Fuel",
+    "offers": [
+      { "spend": 10, "at": "Cha drive-thru", "get": 5, "reward": "Mobil fuel coupon", "condition": "with a $30 fuel purchase" },
+      { "spend": 30, "at": "Mobil", "get": 5, "reward": "to spend at Cha", "condition": null }
+    ],
+    "since": "Oct 2026"
+  },
+  "story": [
+    {
+      "year": "2012",
+      "title": "A hole-in-the-wall on Beach Road",
+      "body": "Cha opens as a roughly 10-seat café. Its first product is fresh-brewed milk tea, credited with starting Saipan's café craze.",
+      "photo": "story-2012",
+      "source": "Marianas Variety"
+    },
+    {
+      "year": "Two years in",
+      "title": "Five times the space, 50 seats",
+      "body": "A move a few doors down. Rebranded Cha Café and Bakery, L.A.-inspired \"urban boardwalk\" style, a custom Italian espresso machine and a glass pastry case on black marble counters.",
+      "photo": "story-bakery",
+      "source": "Saipan Tribune",
+      "confirm": "Exact year of the move"
+    },
+    {
+      "year": "2019",
+      "title": "Cha Bistro opens upstairs",
+      "body": "A second-floor dining room above the bakery, serving lunch and dinner by a local executive chef.",
+      "photo": "story-bistro",
+      "source": "Tripadvisor, Yelp"
+    },
+    {
+      "year": "Drive-thru 01",
+      "title": "Mobil Middle Road",
+      "body": "Cha's second location: a drive-thru at the Mobil service station on Middle Road, Garapan.",
+      "photo": "story-drive-middle",
+      "source": "Marianas Variety",
+      "confirm": "Opening year of the Middle Road drive-thru"
+    },
+    {
+      "year": "2023",
+      "title": "Gold, Best Coffee",
+      "body": "Best of the Marianas 2023 names Cha the island's best coffee.",
+      "photo": "story-award",
+      "source": "Marianas Variety"
+    },
+    {
+      "year": "Oct 2026",
+      "title": "Mobil Chalan Kiya",
+      "body": "The second drive-thru opens, announced on October 5, 2026.",
+      "photo": "story-drive-kiya",
+      "source": "Facebook, Oct 5, 2026"
+    }
+  ],
+  "proposal": {
+    "by": "Pacific Nexus AI",
+    "line": "Website proposal by Pacific Nexus AI"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "note": "Real public reviews, verbatim, from the research brief. Never invent reviews. Get the owner's approval before publishing [CONFIRM].",
+    "approved": false
+  },
+  "aggregate": { "platform": "Google", "stars": 4.3, "count": 756 },
+  "reviews": [
+    { "quote": "Best cafe in town, great espresso drinks and delicious breakfast sandwiches.", "name": "Google review", "platform": "Google Maps", "date": "Featured, Nov 2026" },
+    { "quote": "Great espresso drinks, pastries and friendly local service.", "name": "WallStreetEats T.", "platform": "Yelp", "date": "Apr 2024" },
+    { "quote": "Cha cafe has nice tasty drinks. Nice and clean. Great staff and family environment.", "name": "Geri M.", "platform": "Yelp", "date": "Dec 2024" },
+    { "quote": "My new favorite bread in Saipan is TARO Bread.", "name": "Dubhe C.", "platform": "Yelp", "date": "Jun 2019" },
+    { "quote": "Nice cafe, with modern interior… Cha's salted caramel drink is the best.", "name": "Maki A.", "platform": "Yelp", "date": "Sep 2018" },
+    { "quote": "Good coffee, cheesecake, and service.", "name": "Google review (drive-thru)", "platform": "Google Maps", "date": "Featured, Nov 2026" }
+  ]
+}
