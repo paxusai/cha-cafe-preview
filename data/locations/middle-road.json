@@ -1,0 +1,36 @@
+{
+  "id": "middle-road",
+  "order": 2,
+  "name": "Cha Drive-Thru · Middle Road",
+  "fullName": "Cha Drive-Thru at Mobil Middle Road",
+  "type": "drive-thru",
+  "typeLabel": "Drive-thru",
+  "address": {
+    "street": "Mobil Middle Road (service-station store)",
+    "locality": "Garapan",
+    "region": "Saipan, MP",
+    "postalCode": "96950",
+    "country": "US"
+  },
+  "plusCode": "6P49+9X Garapan, Saipan",
+  "geo": { "lat": 15.20594, "lng": 145.71994, "confirmed": false },
+  "phone": "+16702332421",
+  "services": ["Drive-thru", "Lemonade Charger 24 oz", "Coffee & Fuel promo"],
+  "timezone": "Pacific/Saipan",
+  "hours": {
+    "mon": [["06:00", "17:00"]],
+    "tue": [["06:00", "17:00"]],
+    "wed": [["06:00", "17:00"]],
+    "thu": [["06:00", "17:00"]],
+    "fri": [["06:00", "17:00"]],
+    "sat": [["06:00", "17:00"]],
+    "sun": [["06:00", "17:00"]]
+  },
+  "hoursConfirmed": false,
+  "notes": [],
+  "confirm": [
+    "Weekly hours (at opening: weekdays 6 AM–7 PM, weekends 8 AM–7 PM; Google now shows a 5 PM close)",
+    "Exact street address and map pin (pin decoded from plus code 6P49+9X)",
+    "Direct phone line for the drive-thru, if different from the main number"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chalan-kiya",
+  "order": 3,
+  "name": "Cha Drive-Thru · Chalan Kiya",
+  "fullName": "Cha Drive-Thru at Mobil Chalan Kiya",
+  "type": "drive-thru",
+  "typeLabel": "Drive-thru · New",
+  "isNew": true,
+  "opened": "Oct 2026",
+  "address": {
+    "street": "Mobil Chalan Kiya",
+    "locality": "Chalan Kiya",
+    "region": "Saipan, MP",
+    "postalCode": "96950",
+    "country": "US"
+  },
+  "geo": { "lat": 15.1633, "lng": 145.7172, "confirmed": false },
+  "phone": "+16702332421",
+  "services": ["Drive-thru", "Lemonade Charger 24 oz", "Coffee & Fuel promo"],
+  "timezone": "Pacific/Saipan",
+  "hours": {
+    "mon": [["06:00", "17:00"]],
+    "tue": [["06:00", "17:00"]],
+    "wed": [["06:00", "17:00"]],
+    "thu": [["06:00", "17:00"]],
+    "fri": [["06:00", "17:00"]],
+    "sat": [["06:00", "17:00"]],
+    "sun": [["06:00", "17:00"]]
+  },
+  "hoursConfirmed": false,
+  "notes": [],
+  "confirm": [
+    "Weekly hours (unknown; placeholder 6 AM–5 PM)",
+    "Exact street address and map pin (placeholder pin is the Chalan Kiya village centre, not the station)",
+    "Direct phone line for the drive-thru, if different from the main number"
+  ]
+}

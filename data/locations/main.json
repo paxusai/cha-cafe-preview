@@ -1,0 +1,34 @@
+{
+  "id": "main",
+  "order": 1,
+  "name": "Cha Main",
+  "fullName": "Cha Cafe & Bakery · Beach Road",
+  "type": "cafe",
+  "typeLabel": "Café & bakery",
+  "address": {
+    "street": "Beach Road, Garapan corner building",
+    "locality": "Garapan",
+    "region": "Saipan, MP",
+    "postalCode": "96950",
+    "country": "US"
+  },
+  "geo": { "lat": 15.21194, "lng": 145.71833, "confirmed": true },
+  "phone": "+16702332421",
+  "services": ["Dine-in", "Takeout", "Bakery", "Wi-Fi"],
+  "timezone": "Pacific/Saipan",
+  "hours": {
+    "mon": [["07:00", "18:00"]],
+    "tue": [["07:00", "18:00"]],
+    "wed": [["07:00", "18:00"]],
+    "thu": [["07:00", "18:00"]],
+    "fri": [["07:00", "18:00"]],
+    "sat": [["07:00", "21:00"]],
+    "sun": [["07:00", "21:00"]]
+  },
+  "hoursConfirmed": false,
+  "notes": ["Limited parking on Beach Road, and it gets busy at peak times: order ahead to skip the line."],
+  "confirm": [
+    "Weekly hours (sources disagree: Google shows a 6 PM close; Wanderlog Mon–Fri 7 AM–6 PM, Sat–Sun 7 AM–9 PM; Yelp/Trip.com 7 AM–10 PM)",
+    "Parking guidance for the note above"
+  ]
+}
